@@ -6,6 +6,7 @@ gem 'rails', '3.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'authlogic'
 
 
 # Gems used only for assets and not required
@@ -21,6 +22,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+group :development, :test do
+	gem 'rspec'
+	gem 'rspec-rails'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

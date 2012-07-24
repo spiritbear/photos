@@ -11,6 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 
-//= require underscore
-//= require backbone
-
+//= require application
+//= require bootstrap
